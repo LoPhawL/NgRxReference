@@ -1,0 +1,1 @@
+export const ADD_AUCTION = "ADD_AUCTION";
