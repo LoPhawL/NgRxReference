@@ -13,7 +13,7 @@ import { AuctionsReducer } from './Data/Auctions.reducer';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    StoreModule.forRoot(AuctionsReducer)
+    StoreModule.forRoot({auctionsReducer:AuctionsReducer})
   ],
   providers: [],
   bootstrap: [AppComponent]
